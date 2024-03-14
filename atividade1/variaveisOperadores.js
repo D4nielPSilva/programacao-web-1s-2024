@@ -10,20 +10,20 @@ variável;
 let somA = 5;
 let somB = 3;
 let soma = somA + somB;
-console.log('Resultado da soma entre 5 e 3 é:', soma);
+console.log(`Resultado da soma entre ${somA} e ${somB} é ${soma}`);
 
 let subA = 10;
 let subB = 7;
 let sub = subA - subB;
-console.log('Resuldado da subtração entre 10 e 7 é:', sub);
+console.log(`Resuldado da subtração entre ${subA} e ${subB} é ${sub}`);
 
 let multA = 5;
 let multB = 8;
 let mult = multA * multB;
-console.log('Resultado da multiplicação entre 5 e 8 é:', mult);
+console.log(`Resultado da multiplicação entre ${multA} e ${multB} é ${mult}`);
 
 let divA = 100;
 let divB = 25;
 let div = divA/divB;
-console.log('Resultado da divisão de 100 pra 25 é:', div);
+console.log(`Resultado da divisão de ${divA} pra ${divB} é ${div}`);
 
