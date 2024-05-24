@@ -13,13 +13,11 @@ function resultado(req, res){
     let nmOp = calc.nomeOperador(op);
 
     if(isNaN(v1) || isNaN(v2)){
-
         res.redirect('/?erro_valor=true');
-
     }
     else{
         v3 = calc.calcular(v1, v2, op);
-        res.render('resultado.html', {v1, v2, v3, op});
+        res.render('resultado.html', {v1, v2, v3, nmOp});
     }
 }
 
